@@ -27,4 +27,9 @@ class EntityTest {
         assertEquals(c1,c1);
         Assertions.assertEquals(c1.equals(c2), false);
     }
+
+    @Test
+    void stripPunct(){
+        c1.stripPunct("wasn't");
+    }
 }

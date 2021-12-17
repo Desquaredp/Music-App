@@ -30,24 +30,24 @@ class PlaylistTest {
         pl2 = new Playlist("list2");
         pl3 = new Playlist("list3");
 
-        pl1.addSong(s1);
-        pl1.addSong(s2);
-        pl1.addSong(s3);
-        pl1.addSong(s4);
+        pl1.addSongs(s1);
+        pl1.addSongs(s2);
+        pl1.addSongs(s3);
+        pl1.addSongs(s4);
 
-        pl2.addSong(s5);
-        pl2.addSong(s6);
-        pl2.addSong(s7);
-        pl2.addSong(s8);
-
-        pl3.addSong(s1);
-        pl3.addSong(s2);
-        pl3.addSong(s3);
-        pl3.addSong(s4);
-        pl3.addSong(s5);
-        pl3.addSong(s6);
-        pl3.addSong(s7);
-        pl3.addSong(s8);
+//        pl2.addSongs(s5);
+//        pl2.addSongs(s6);
+//        pl2.addSongs(s7);
+//        pl2.addSongs(s8);
+//
+//        pl3.addSongs(s1);
+//        pl3.addSongs(s2);
+//        pl3.addSongs(s3);
+//        pl3.addSongs(s4);
+//        pl3.addSongs(s5);
+//        pl3.addSongs(s6);
+//        pl3.addSongs(s7);
+//        pl3.addSongs(s8);
 
         s9 = new Song("Song 1", 40, "Album 1", "Artist 1", true);
         s10 = new Song("Song 10", 40, "Album 1", "artist10", true);
@@ -57,7 +57,7 @@ class PlaylistTest {
 
     @Test
     void testAddSong() {
-        pl1.addSong(s10);
+        pl1.addSongs(s10);
         pl1.getSongs();
 
     }
@@ -79,7 +79,7 @@ class PlaylistTest {
 
     @Test
     void mergeLists() throws Exception {
-        pl2.addSong(s9);
+        pl2.addSongs(s9);
         pl1.mergeLists(pl2.getSongs());
     }
 
@@ -99,5 +99,11 @@ class PlaylistTest {
     void randomList() {
 
         System.out.println(pl3.randomList("rock"));
+    }
+
+    @Test
+    void XML(){
+        //System.out.println(pl1.getSongs());
+       pl1.XML();
     }
 }

@@ -36,11 +36,6 @@ class SongTest {
         Assertions.assertEquals(s1.equals(s3), true);
     }
 
-    @Test
-    void toString_toHTML_toXML_test() {
-        System.out.println(s1.toString());
-        System.out.println(s1.toHTML());
-        System.out.println(s1.toXML());
-    }
+
 
 }

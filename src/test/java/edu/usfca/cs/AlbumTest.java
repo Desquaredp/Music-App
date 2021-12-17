@@ -22,10 +22,7 @@ class AlbumTest {
     }
 
     @Test
-    void toString_toHTML_toXML_test() {
-        System.out.println(a1.toString());
-        System.out.println(a1.toHTML());
-        System.out.println(a1.toXML());
+    void stripPunct(){
+        System.out.println(a1.stripPunct("wasn't"));
     }
-
 }

@@ -87,15 +87,44 @@ public class Library extends Entity {
                 for (Song s : songs) {
 
                     if (sng.entityID != s.entityID) {
-                        if (sng.getName().equals(s.getName()) &&
-                                (sng.getAlbum().getName().equals(s.getAlbum().getName()) ||
-                                        sng.getPerformer().getName().equals(s.getPerformer().getName()))) {
+                        if (sng
+                                .getName()
+                                .equals(s
+                                        .getName()) &&
+                                (sng
+                                        .getAlbum()
+                                        .getName().equals(s
+                                                .getAlbum()
+                                                .getName()) ||
+                                        sng
+                                                .getPerformer()
+                                                .getName()
+                                                .equals(s
+                                                        .getPerformer()
+                                                        .getName()))) {
                             elID.add(s.entityID);
                             return true;
                         } else if (
-                                sng.getAlbum().getName().equals(s.getAlbum().getName()) &&
-                                        sng.getPerformer().getName().equals(s.getPerformer().getName()) &&
-                                        sng.getName().toLowerCase().replaceAll("\\p{Punct}", "").equals(s.getName().toLowerCase().replaceAll("\\p{Punct}", ""))) {
+                                sng
+                                        .getAlbum()
+                                        .getName()
+                                        .equals(s
+                                                .getAlbum()
+                                                .getName()) &&
+                                        sng
+                                                .getPerformer()
+                                                .getName()
+                                                .equals(s
+                                                        .getPerformer()
+                                                        .getName()) &&
+                                        sng
+                                                .getName()
+                                                .toLowerCase()
+                                                .replaceAll("\\p{Punct}", "")
+                                                .equals(s
+                                                        .getName()
+                                                        .toLowerCase()
+                                                        .replaceAll("\\p{Punct}", ""))) {
                             elID.add(s.entityID);
                             return true;
                         }
@@ -180,56 +209,7 @@ public class Library extends Entity {
 
     }
 
-    public void JSON() {
 
-        try {
-            FileWriter myWriter = new FileWriter("JSONCreate.json");
-            myWriter.write("{\n");
-            myWriter.write("\"songs\" : [ \n");
-            int len = 0;
-            for (Song s : songs) {
-
-                myWriter.write("\t" + s.JSON() + "\n");
-                len++;
-
-                if (len <= songs.size() - 1) {
-                    myWriter.write(",");
-                }
-            }
-            myWriter.write("],\n");
-            len = 0;
-            myWriter.write("\"artists\" : [ \n");
-
-            for (Artist art : artist) {
-
-                myWriter.write("\t" + art.JSON() + "\n");
-                len++;
-
-                if (len <= artist.size() - 1) {
-                    myWriter.write(",");
-                }
-            }
-            myWriter.write("],\n");
-            len = 0;
-            myWriter.write("\t" + "\"albums\" : [ \n");
-            for (Album a : albums) {
-                myWriter.write(a.JSON() + "\n");
-                len++;
-
-                if (len <= albums.size() - 1) {
-                    myWriter.write(",");
-                }
-            }
-
-            myWriter.write("]\n}");
-            myWriter.close();
-            System.out.println("Successfully written to the file.");
-        } catch (IOException e) {
-            System.out.println("An error occurred.");
-            e.printStackTrace();
-        }
-
-    }
 
     public static void main(String[] args) {
 

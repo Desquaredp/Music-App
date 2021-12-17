@@ -1,20 +1,20 @@
 package edu.usfca.cs;
 
-import static org.junit.Assert.assertTrue;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
-import org.junit.Test;
+/**Deep Mistry**/
+class AppTest {
 
-/**
- * Unit test for simple App.
- */
-public class AppTest 
-{
-    /**
-     * Rigorous Test :-)
-     */
-    @Test
-    public void shouldAnswerWithTrue()
-    {
-        assertTrue( true );
+    App ap;
+
+    @BeforeEach
+    void setup() {
+ap =  new App();
     }
+
+
+
+
 }
