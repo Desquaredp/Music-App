@@ -21,18 +21,18 @@ class LibraryTest {
         s4 = new Song("Helter Skelter", 184, "album2", "perfm2", false);
 
     }
-
-    @Test
-    void duplicates() {
-        /**Since Junit doesn't permit user input, the test for this is
-         * writting in the psvm of the Library class**/
-
-        lib1.addSongs(s1);
-        lib1.addSongs(s2);
-        lib1.addSongs(s3);
-        lib1.addSongs(s4);
-        lib1.duplicates();
-    }
+//
+//    @Test
+//    void duplicates() {
+//        /**Since Junit doesn't permit user input, the test for this is
+//         * writting in the psvm of the Library class**/
+//
+//        lib1.addSongs(s1);
+//        lib1.addSongs(s2);
+//        lib1.addSongs(s3);
+//        lib1.addSongs(s4);
+//        lib1.duplicates();
+//    }
 
     @Test
     void findSongs() {
