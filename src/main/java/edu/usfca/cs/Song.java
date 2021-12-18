@@ -1,21 +1,9 @@
 package edu.usfca.cs;
 
-//import org.json.simple.JSONArray;
-//import org.json.simple.JSONObject;
-//import org.json.simple.parser.JSONParser;
-//import org.json.simple.parser.ParseException;
-//
-//import java.io.IOException;
-//import java.io.InputStream;
-//import java.net.HttpURLConnection;
-//import java.net.MalformedURLException;
-//import java.net.URL;
-//import java.net.URLConnection;
+
 import java.sql.ResultSet;
 import java.sql.SQLException;
-//import java.util.Scanner;
-//
-//import static java.lang.Integer.parseInt;
+
 
 /**
  * this class contains all the properties of a Song

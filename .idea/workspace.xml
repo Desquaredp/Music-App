@@ -4,18 +4,93 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7d30327-e815-46a6-b07f-fc8e58d8f5fa" name="Changes" comment="semifinal push1">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20211205.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/json_simple_1_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sqlite_jdbc_3_36_0_3__2_.xml" beforeDir="false" />
+    <list default="true" id="b7d30327-e815-46a6-b07f-fc8e58d8f5fa" name="Changes" comment="final push0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw7.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hw7.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/allclasses-index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/allpackages-index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/edu/usfca/cs/Album.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/edu/usfca/cs/App.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/edu/usfca/cs/Artist.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/edu/usfca/cs/Entity.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/edu/usfca/cs/Library.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/edu/usfca/cs/Playlist.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/edu/usfca/cs/SQLite.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/edu/usfca/cs/Song.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/edu/usfca/cs/SongInterval.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/edu/usfca/cs/class-use/Album.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/edu/usfca/cs/class-use/App.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/edu/usfca/cs/class-use/Artist.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/edu/usfca/cs/class-use/Entity.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/edu/usfca/cs/class-use/Library.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/edu/usfca/cs/class-use/Playlist.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/edu/usfca/cs/class-use/SQLite.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/edu/usfca/cs/class-use/Song.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/edu/usfca/cs/class-use/SongInterval.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/edu/usfca/cs/class-use/dup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/edu/usfca/cs/class-use/rest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/edu/usfca/cs/dup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/edu/usfca/cs/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/edu/usfca/cs/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/edu/usfca/cs/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/edu/usfca/cs/rest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/element-list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/help-doc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-12.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-13.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-14.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/jquery-ui.overrides.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/legal/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/legal/ASSEMBLY_EXCEPTION" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/legal/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/legal/jquery.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/legal/jqueryUI.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/member-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/module-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/overview-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/package-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/resources/glass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/resources/x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/script-dir/images/ui-bg_glass_55_fbf9ee_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/script-dir/images/ui-bg_glass_65_dadada_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/script-dir/images/ui-bg_glass_75_dadada_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/script-dir/images/ui-bg_glass_75_e6e6e6_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/script-dir/images/ui-bg_glass_95_fef1ec_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/script-dir/images/ui-bg_highlight-soft_75_cccccc_1x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/script-dir/images/ui-icons_222222_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/script-dir/images/ui-icons_2e83ff_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/script-dir/images/ui-icons_454545_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/script-dir/images/ui-icons_888888_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/script-dir/images/ui-icons_cd0a0a_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/script-dir/jquery-3.5.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/script-dir/jquery-ui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/script-dir/jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/script-dir/jquery-ui.structure.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/tag-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/type-search-index.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/music.db" beforeDir="false" afterPath="$PROJECT_DIR$/music.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme" beforeDir="false" afterPath="$PROJECT_DIR$/readme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/usfca/cs/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/usfca/cs/Album.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/usfca/cs/Artist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/usfca/cs/Artist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/usfca/cs/Library.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/usfca/cs/SQLite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/usfca/cs/SQLite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/usfca/cs/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/usfca/cs/Song.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/usfca/cs/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/usfca/cs/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/usfca/cs/LibraryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/usfca/cs/dup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/usfca/cs/LibraryTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/edu/usfca/cs/SongTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/usfca/cs/SongTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +135,6 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect" value="SQLite" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/edu/usfca/cs" />
@@ -183,7 +257,7 @@
       <updated>1638887662527</updated>
       <workItem from="1638887663677" duration="20272000" />
       <workItem from="1639229248148" duration="45693000" />
-      <workItem from="1639645481337" duration="34389000" />
+      <workItem from="1639645481337" duration="42462000" />
     </task>
     <task id="LOCAL-00001" summary="semifinal push1">
       <created>1639711410397</created>
@@ -192,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639711410397</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="final push0">
+      <created>1639726127971</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1639726127971</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,6 +292,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="semifinal push1" />
-    <option name="LAST_COMMIT_MESSAGE" value="semifinal push1" />
+    <MESSAGE value="final push0" />
+    <option name="LAST_COMMIT_MESSAGE" value="final push0" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/edu/usfca/cs/SQLite.java</url>
+          <line>112</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

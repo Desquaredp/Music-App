@@ -126,14 +126,15 @@ public class SQLite {
                         break;
                     }
                 }
+
                 if (counter == 0) {
                     statement.executeUpdate(artAdd.toSQL());
-
-                    while (art.next()) {
-                        if (art.getString("name").equalsIgnoreCase(artAdd.name)) {
-                            System.out.println("name = " + art.getString("name")
-                                    + "\t" + "id = " + art.getInt("id")
-                                    + "\tMood = " + art.getString("mood") +
+                    ResultSet artc = statement.executeQuery("select * from artists");
+                    while (artc.next()) {
+                        if (artc.getString("name").equalsIgnoreCase(artAdd.name)) {
+                            System.out.println("name = " + artc.getString("name")
+                                    + "\t" + "id = " + artc.getInt("id")
+                                    + "\tMood = " + artc.getString("mood") +
                                     "\tAdded successfully!");
                         }
                     }

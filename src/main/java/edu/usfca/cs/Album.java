@@ -163,7 +163,7 @@ public class Album extends Entity {
             int code = httpConnection.getResponseCode();
 
             String message = httpConnection.getResponseMessage();
-            System.out.println(code + " " + message);
+
             if (code != HttpURLConnection.HTTP_OK) {
                 return null;
             }
@@ -183,7 +183,7 @@ public class Album extends Entity {
             JSONArray artists = (JSONArray)jsonObject.get("artists"); // get the list of all artists returned.
             JSONObject beatles =(JSONObject) artists.get(0);  // I happen to know that the beatles is the first entry. Otherwise I'd iterate.
             String id = (String)beatles.get("idArtist");
-            System.out.println("artist id: " + id);
+
             return id;
 
 
@@ -216,7 +216,7 @@ public class Album extends Entity {
                 int code = httpConnection.getResponseCode();
 
                 String message = httpConnection.getResponseMessage();
-                System.out.println(code + " " + message);
+
                 if (code != HttpURLConnection.HTTP_OK) {
                     return ;
                 }
@@ -239,13 +239,11 @@ public class Album extends Entity {
                     JSONObject beatles =(JSONObject) album.get(i);  // I happen to know that the beatles is the first entry. Otherwise I'd iterate.
                     String albName = (String)beatles.get("strAlbum");
                     if(albName.equalsIgnoreCase(this.name)){
-                        System.out.println(i);
-                        System.out.println("name: " + albName);
+//®;
                         this.name = (String)beatles.get("strAlbum");
                         this.mood = (String)beatles.get("strMood");
                         this.genre = (String)beatles.get("strGenre");
                         this.entityID = parseInt((String)beatles.get("idAlbum"));
-                        System.out.println("album id "+ this.entityID);
                         this.artist.entityID = Integer.parseInt(ID);
 
                         break;
@@ -282,7 +280,7 @@ public class Album extends Entity {
                 int code = httpConnection.getResponseCode();
 
                 String message = httpConnection.getResponseMessage();
-                System.out.println(code + " " + message);
+
                 if (code != HttpURLConnection.HTTP_OK) {
                     return null;
                 }

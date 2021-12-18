@@ -147,7 +147,7 @@ public class Artist extends Entity {
             int code = httpConnection.getResponseCode();
 
             String message = httpConnection.getResponseMessage();
-            System.out.println(code + " " + message);
+
             if (code != HttpURLConnection.HTTP_OK) {
                 return;
             }
@@ -169,7 +169,7 @@ public class Artist extends Entity {
             this.name = (String)beatles.get("strArtist");
             this.entityID = parseInt((String) beatles.get("idArtist"));
             String mood = (String)beatles.get("strMood");
-            System.out.println("Mood: " + mood);
+
             this.mood = (String)beatles.get("strMood");
 
         } catch(ParseException e) {
